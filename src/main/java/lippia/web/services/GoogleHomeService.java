@@ -14,14 +14,14 @@ import static com.crowdar.core.actions.WebActionManager.navigateTo;
 public class GoogleHomeService extends ActionManager {
 
     public static void navegarWeb(){
-        navigateTo(PropertyManager.getProperty("web.base.url"));
+        navigateTo(PropertyManager.getProperty("web.base.url"));//propiedad en config properties -> pom
     }
 
     public static void enterSearchCriteria(String text) {
-        setInput(GoogleConstants.INPUT_SEARCH_XPATH, text);
+        setInput(GoogleConstants.INPUT_SEARCH_XPATH, text);//locator
     }
 
     public static void clickSearchButton() {
-        click(GoogleConstants.SEARCH_BUTTON_NAME);
+        click(GoogleConstants.SEARCH_BUTTON_NAME);//locator
     }
 }
