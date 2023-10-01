@@ -18,7 +18,7 @@ Feature: As a potential customer, I need to see the elements on the home page an
   @HomePage  @TestCase3
   Scenario: Verify adding a book to the Basket
     Given the client enters the home page
-    When  the client clicks on "Shop Menu" button
+    When  the client clicks on Shop Menu button
     And   the client clicks on Home button
     And   the client clicks on one of the 3 arrivals picture
     Then  the client is taken to a screen where they can add the book to their basket
@@ -26,7 +26,7 @@ Feature: As a potential customer, I need to see the elements on the home page an
   @HomePage  @TestCase4
   Scenario: Verify description of a selected book
     Given the client enters the home page
-    When  the client clicks on "Shop Menu" button
+    When  the client clicks on Shop Menu button
     And   the client clicks on Home button
     And   the client clicks on one of the 3 arrivals pictures
     And   the client clicks on Description tab
@@ -35,7 +35,7 @@ Feature: As a potential customer, I need to see the elements on the home page an
   @HomePage   @TestCase5
   Scenario: Verify reviews of a selected book
     Given the client enters the home page
-    When  the client clicks on "Shop Menu" button
+    When  the client clicks on Shop Menu button
     And   the client clicks on Home button
     And   the client clicks on one of the 3 arrivals pictures
     And   the client clicks on reviews tab
